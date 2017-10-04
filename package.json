@@ -24,7 +24,7 @@
     "release-minor": "npm version minor",
     "release-major": "npm version major",
     "postversion": "git push && git push --tags",
-    "deploy": "ember github-pages:commit --message \"Deploy gh-pages from commit $(git rev-parse HEAD)\"; git push origin gh-pages; git checkout origin master"
+    "deploy": "ember github-pages:commit --message \"Deploy gh-pages from commit $(git rev-parse HEAD)\"; git push origin gh-pages; git checkout master"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
