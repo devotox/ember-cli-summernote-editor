@@ -1,16 +1,16 @@
 <h2 id="title">Summer Note Editor</h2>
 
 <div class="container-fluid">
-	<div>
+    <div>
     <h3>Example </h3>
-	{{summernote-editor
-	    disabled=disabled
-		content=(readonly value)
-		onContentChange=(action (mut value))
-	}}
+    {{summernote-editor
+        disabled=disabled
+        content=(readonly value)
+        onContentChange=(action (mut value))
+    }}
 
-	<p>Disable editing {{input type="checkbox" checked=disabled}}</p>
-	</div>
+    <p>Disable editing {{input type="checkbox" checked=disabled}}</p>
+    </div>
     <div class='wysiwyg-preview'>
       <div class="highlight">
         <pre>{{{value}}}</pre>
@@ -34,20 +34,6 @@
       content=(readonly value)
       onContentChange=(action (mut value))
     &#125;&#125;
-    </pre>
-  </div>
-
-  Example of configuring the toolbar options.
-
-  <div class="highlight">
-    <pre>
-    toolbarOptions: {
-      style: false,
-      insert: {
-        picture: false
-      },
-      help: true
-    }
     </pre>
   </div>
 
