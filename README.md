@@ -1,5 +1,7 @@
 # Ember-cli-summernote-editor
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/devotox/ember-cli-summernote-editor.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/devotox/ember-cli-summernote-editor.svg)](http://travis-ci.org/devotox/ember-cli-summernote-editor)
 [![NPM Downloads](https://img.shields.io/npm/dm/ember-cli-summernote-editor.svg)](https://www.npmjs.org/package/ember-cli-summernote-editor)
 [![NPM Version](https://badge.fury.io/js/ember-cli-summernote-editor.svg)](http://badge.fury.io/js/ember-cli-summernote-editor)
