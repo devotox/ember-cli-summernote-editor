@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-summernote-editor/components/summernote-editor';

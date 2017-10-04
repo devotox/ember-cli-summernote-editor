@@ -1,3 +1,71 @@
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">Summer Note Editor</h2>
 
-{{outlet}}
+<div class="container-fluid">
+	<div>
+    <h3>Example </h3>
+	{{summernote-editor
+	    disabled=disabled
+		content=(readonly value)
+		onContentChange=(action (mut value))
+	}}
+
+	<p>Disable editing {{input type="checkbox" checked=disabled}}</p>
+	</div>
+    <div class='wysiwyg-preview'>
+      <div class="highlight">
+        <pre>{{{value}}}</pre>
+      </div>
+    </div>
+
+      <div class="highlight">
+    <pre>
+    Use the following code to put a wysiwyg editor.
+
+    &#123;&#123;summernote-editor
+      focus=false
+      btnSize=bs-sm
+      airMode=false
+      header=header
+      height=height
+      buttons=buttons
+      toolbar=toolbar
+      disabled=disabled
+      callbacks=callbacks
+      content=(readonly value)
+      onContentChange=(action (mut value))
+    &#125;&#125;
+    </pre>
+  </div>
+
+  Example of configuring the toolbar options.
+
+  <div class="highlight">
+    <pre>
+    toolbarOptions: {
+      style: false,
+      insert: {
+        picture: false
+      },
+      help: true
+    }
+    </pre>
+  </div>
+
+  All callbacks except <b>onChange</b> are supported. The <b>onChange</b> callback are used internally for the <b>onContentChange</b> action.
+
+  <div class="highlight">
+    <pre>
+    callbackOptions: {
+      onInit: function() {
+        console.log('Summernote is launched');
+      },
+      onEnter: function() {
+        console.log('Enter/Return key pressed');
+      },
+      onPaste: function(e) {
+        console.log('Called event paste');
+      },
+    },
+    </pre>
+  </div>
+</div>
