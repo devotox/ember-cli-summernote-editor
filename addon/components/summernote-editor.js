@@ -18,6 +18,7 @@ export default Component.extend({
   summernote: null,
   btnSize: 'btn-xs',
   dialogsFade: true,
+  placeholder: null,
   dialogsInBody: false,
   disableDragAndDrop: false,
 
@@ -42,7 +43,7 @@ export default Component.extend({
     callbacks.onChange = this.get('onContentChange') || ((content) => this.set('content', content));
 
     let properties = this.getProperties([
-      'height', 'focus', 'lang', 'airMode', 'shortcuts',
+      'height', 'focus', 'lang', 'airMode', 'shortcuts', 'placeholder',
       'dialogsInBody', 'dialogsFade', 'disableDragAndDrop'
     ]);
 
