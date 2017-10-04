@@ -61,7 +61,7 @@
     "node": "^4.5 || 6.* || >= 7.*"
   },
   "ember-addon": {
-    "demoURL": "https://devotox.github.io/ember-cli-summernote-editor",
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "demoURL": "https://devotox.github.io/ember-cli-summernote-editor"
   }
 }
