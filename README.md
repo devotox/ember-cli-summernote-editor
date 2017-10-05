@@ -16,7 +16,7 @@ A wrapper around the [summernote](https://github.com/summernote/summernote) libr
 ## Installation
 * `ember install ember-cli-summernote-editor`
 
-## Basic Usage
+## Usage
 
 ### Handlebar Template
 
