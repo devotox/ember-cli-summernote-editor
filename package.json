@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-summernote-editor",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ember-cli addon for summernote wysiwyg editor",
   "keywords": [
     "ember-addon",
