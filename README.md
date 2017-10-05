@@ -1,4 +1,4 @@
-# Ember-cli-summernote-editor
+# ember-cli-summernote-editor
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/devotox/ember-cli-summernote-editor.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/devotox/ember-cli-summernote-editor.svg)](http://travis-ci.org/devotox/ember-cli-summernote-editor)
@@ -7,21 +7,16 @@
 [![Ember Observer Score](http://emberobserver.com/badges/ember-cli-summernote-editor.svg)](http://emberobserver.com/addons/ember-cli-summernote-editor)
 
 ## Description
-Ember-cli-summernote-editor is an Ember CLI add-on. This addon actually converts summernote to an Ember component which is
-a re-usable unit. This is still a work in progress. Pull requests are welcome.
-
+A wrapper around the [summernote](https://github.com/summernote/summernote) library for use in ember-cli projects
 
 [DEMO](http://devotox.github.io/ember-cli-summernote-editor)
 
 ## Installation
-```
-ember install ember-cli-summernote-editor
-```
+* `ember install ember-cli-summernote-editor`
 
 ## Basic Usage
 
 ### Handlebar Template
-
 
 ```javascript
 import Ember from 'ember';
@@ -116,31 +111,8 @@ The `onChange` callback are used internally for the `onContentChange` action.
     },
 ```
 
-## Demo
-You can clone this repo and run the app
-
-```
-$ sudo npm install -g ember-cli
-
-# clone the codebase
-$ git clone http://github.com/devotox/ember-cli-summernote-editor.git
-$ cd ember-cli-summernote-editor
-
-# install dependencies
-$ npm install
-
-# fire up local server
-$ ember serve
-
-# visit the page with the following url.
-http://localhost:4200
-```
-
-
-#### Inspired by
-
-* Summernote(Super simple WYSIWYG Editor) (https://github.com/summernote/summernote)
-* Ember CLI Summernote (http://vsymguysung.github.io/ember-cli-summernote)
+## Available options
+See original library [Summernote](https://github.com/summernote/summernote)
 
 #### License
 MIT license.
