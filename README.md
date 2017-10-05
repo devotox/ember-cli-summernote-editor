@@ -1,10 +1,12 @@
 # ember-cli-summernote-editor
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/devotox/ember-cli-summernote-editor.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/devotox/ember-cli-summernote-editor.svg)](http://travis-ci.org/devotox/ember-cli-summernote-editor)
-[![NPM Downloads](https://img.shields.io/npm/dm/ember-cli-summernote-editor.svg)](https://www.npmjs.org/package/ember-cli-summernote-editor)
-[![NPM Version](https://badge.fury.io/js/ember-cli-summernote-editor.svg)](http://badge.fury.io/js/ember-cli-summernote-editor)
 [![Ember Observer Score](http://emberobserver.com/badges/ember-cli-summernote-editor.svg)](http://emberobserver.com/addons/ember-cli-summernote-editor)
+[![Build Status](https://travis-ci.org/devotox/ember-cli-summernote-editor.svg)](http://travis-ci.org/devotox/ember-cli-summernote-editor)
+[![Coverage Status](https://coveralls.io/repos/github/devotox/mber-cli-summernote-editor/badge.svg)](https://coveralls.io/github/devotox/mber-cli-summernote-editor)
+[![NPM Version](https://badge.fury.io/js/ember-cli-summernote-editor.svg)](http://badge.fury.io/js/ember-cli-summernote-editor)
+[![NPM Downloads](https://img.shields.io/npm/dm/ember-cli-summernote-editor.svg)](https://www.npmjs.org/package/ember-cli-summernote-editor)
+[![Greenkeeper badge](https://badges.greenkeeper.io/devotox/ember-cli-summernote-editor.svg)](https://greenkeeper.io/)
+
 
 ## Description
 A wrapper around the [summernote](https://github.com/summernote/summernote) library for use in ember-cli projects
