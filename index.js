@@ -8,7 +8,9 @@ module.exports = {
     options: {
       nodeAssets: {
         'popper.js': {
-          import: ['dist/umd/popper.js'],
+          srcDir: 'dist/umd',
+          import: ['popper.js'],
+          vendor: ['popper.js.map'],
           processTree(input) {
            return fastbootTransform(input);
           }
