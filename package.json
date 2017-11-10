@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-summernote-editor",
-  "version": "1.0.13",
+  "version": "1.1.0",
   "description": "ember-cli addon for summernote wysiwyg editor",
   "keywords": [
     "ember-addon",
@@ -29,7 +29,7 @@
     "deploy": "ember github-pages:commit --message \"Deploy gh-pages from commit $(git rev-parse HEAD)\"; git push origin gh-pages; git checkout master"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta",
+    "bootstrap": "^4.0.0-beta.2",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-node-assets": "^0.2.2",

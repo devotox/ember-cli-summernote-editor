@@ -12,7 +12,7 @@ module.exports = {
           import: ['popper.js'],
           vendor: ['popper.js.map'],
           processTree(input) {
-           return fastbootTransform(input);
+            return fastbootTransform(input);
           }
         },
         bootstrap: {
@@ -20,8 +20,9 @@ module.exports = {
             'dist/css/bootstrap.css',
             'dist/js/bootstrap.js'
           ],
+          vendor: ['dist/js/bootstrap.js.map'],
           processTree(input) {
-           return fastbootTransform(input);
+            return fastbootTransform(input);
           }
         },
         summernote: {
