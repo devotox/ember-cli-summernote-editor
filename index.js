@@ -17,8 +17,8 @@ module.exports = {
         },
         bootstrap: {
           import: [
-            'dist/css/bootstrap.css',
-            'dist/js/bootstrap.js'
+            'dist/js/bootstrap.js',
+            'dist/css/bootstrap.css'
           ],
           vendor: ['dist/js/bootstrap.js.map'],
           processTree(input) {
