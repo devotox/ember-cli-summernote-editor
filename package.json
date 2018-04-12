@@ -25,6 +25,7 @@
     "release-major": "npm version major",
     "postversion": "git push && git push --tags",
     "deploy:release": "npm run release; npm run deploy",
+    "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
     "deploy:setup": "git add -A; git commit -m \"Added ember-cli-github-pages addon\"; git checkout --orphan gh-pages; rm -rf `bash -c \"ls -a | grep -vE '.gitignore|.git|node_modules|bower_components|(^[.]{1,2}/?$)'\"`; touch .gitkeep; git add -A; git commit -m \"initial gh-pages commit\"; git checkout master",
     "deploy": "ember github-pages:commit --message \"Deploy gh-pages from commit $(git rev-parse HEAD)\"; git push origin gh-pages; git checkout master"
   },
@@ -40,7 +41,7 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
-    "ember-cli": "~3.0.2",
+    "ember-cli": "~3.1.1",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
     "ember-cli-htmlbars": "^2.0.1",
@@ -56,11 +57,11 @@
     "ember-load-initializers": "^1.0.0",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-resolver": "^4.0.0",
-    "ember-source": "~3.0.0",
+    "ember-source": "~3.1.0",
     "ember-source-channel-url": "^1.0.1",
     "ember-try": "^0.2.23",
     "eslint-plugin-ember": "^5.0.0",
-    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-node": "^6.0.1",
     "loader.js": "^4.2.3"
   },
   "ember-addon": {
