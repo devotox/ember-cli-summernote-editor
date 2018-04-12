@@ -31,6 +31,7 @@ module.exports = {
           import: [
             'summernote-bs4.css',
             'summernote-bs4.js',
+            'summernote-bs4.js.map',
             'font/summernote.eot',
             'font/summernote.ttf',
             'font/summernote.woff'
