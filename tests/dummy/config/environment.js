@@ -1,3 +1,4 @@
+/* eslint-env node */
 'use strict';
 
 module.exports = function(environment) {
@@ -44,6 +45,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.locationType = 'hash';
+    ENV.rootURL = '/ember-cli-summernote-editor/';
     // here you can enable a production-specific feature
   }
 
