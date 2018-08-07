@@ -38,7 +38,7 @@ export default Component.extend({
 
   summernoteOptions() {
     let buttons = {};
-    let toolbar = defaultToolbar;
+    let toolbar = this.get('toolbar') || defaultToolbar;
     let _buttons = this.get('buttons') || [];
     let callbacks = this.get('callbacks') || {};
     callbacks.onChange = this.get('onContentChange') || ((content) => this.set('content', content));
