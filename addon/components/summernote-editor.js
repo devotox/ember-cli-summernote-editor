@@ -83,12 +83,12 @@ export default Component.extend({
     this.setupSummernote();
   },
 
-  setHeight: observer('height', function() {
+  setHeight: observer('height', function() { // eslint-disable-line
     let parent = this.get('summernote').parent();
     parent.find('.note-editable').css('height', this.get('height'));
   }),
 
-  setDisabled: observer('disabled', function() {
+  setDisabled: observer('disabled', function() { // eslint-disable-line
     let parent = this.get('summernote').parent();
     parent.find('.note-editable').attr('contenteditable', !this.get('disabled'));
   })

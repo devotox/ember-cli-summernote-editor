@@ -1,10 +1,10 @@
 /* eslint-env node */
 'use strict';
-
-const fastbootTransform = require('fastboot-transform');
+const { name } = require('./package');
+const FastbootTransform = require('fastboot-transform');
 
 module.exports = {
-    name: 'ember-cli-summernote-editor',
+    name,
     options: {
       nodeAssets: {
         'popper.js': {
@@ -12,7 +12,7 @@ module.exports = {
           import: ['popper.js'],
           vendor: ['popper.js.map'],
           processTree(input) {
-            return fastbootTransform(input);
+            return FastbootTransform(input);
           }
         },
         bootstrap: {
@@ -22,22 +22,22 @@ module.exports = {
           ],
           vendor: ['dist/js/bootstrap.js.map'],
           processTree(input) {
-            return fastbootTransform(input);
+            return FastbootTransform(input);
           }
         },
         summernote: {
           srcDir: 'dist',
           destDir: 'assets',
           import: [
-            'summernote-bs4.css',
             'summernote-bs4.js',
-            'summernote-bs4.js.map',
+            'summernote-bs4.css',
             'font/summernote.eot',
             'font/summernote.ttf',
             'font/summernote.woff'
           ],
+          vendor: ['summernote-bs4.js.map'],
           processTree(input) {
-           return fastbootTransform(input);
+           return FastbootTransform(input);
           }
         }
       }
