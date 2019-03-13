@@ -16,7 +16,8 @@
   "repository": "https://github.com/devotox/ember-cli-summernote-editor",
   "scripts": {
     "build": "ember build",
-    "start": "ember server",
+    "start": "ember serve",
+    "preversion": "npm test",
     "test": "ember try:each",
     "postrelease": "npm publish",
     "release": "npm version patch",
