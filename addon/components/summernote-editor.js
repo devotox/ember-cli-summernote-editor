@@ -77,7 +77,7 @@ export default Component.extend({
   didInsertElement() {
     let summernoteOptions = this.summernoteOptions();
 
-    let summernote = this.$('.summernote').summernote(summernoteOptions);
+    let summernote = this.element.querySelectorAll('.summernote').forEach(el => el.addEventListener(summernoteOptions));
 
     this.set('summernote', summernote);
 
