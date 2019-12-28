@@ -7779,10 +7779,10 @@ sum-up@^1.0.1:
   dependencies:
     chalk "^1.0.0"
 
-summernote@0.8.12:
-  version "0.8.12"
-  resolved "https://registry.yarnpkg.com/summernote/-/summernote-0.8.12.tgz#563502ed882abde9daab9db1e7eba330d37ac020"
-  integrity sha512-RVEJoIyztwPpopTwZvjag1WOvbmhUGFe6Mc9RADzzcX1ogG8pIXCB88icu/vjNYihITrzj2zZsoFMcDRHSlhEA==
+summernote@0.8.13:
+  version "0.8.13"
+  resolved "https://registry.yarnpkg.com/summernote/-/summernote-0.8.13.tgz#e9e99248bb3215a35fcbee0b636cee4dffb1c7d3"
+  integrity sha512-xussQL2pYZV+UORvji07Yem2je/vnXngCWwP7AkKhoLzphmHyi/uc8lBCAxNXHgvu9DM4F/N/PTq638q14oO7A==
 
 supports-color@^2.0.0:
   version "2.0.0"
